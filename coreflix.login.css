@@ -16,13 +16,19 @@ body>div {
     background-repeat: no-repeat;
     display: block;
     padding: 24px 24px;
+    background-color: rgba(0, 0, 0, 0.704);
+    background-blend-mode: soft-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
     display: block;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.634);
     max-width: 400px;
     padding: 48px 32px;
+
 }
 
 form>div:nth-of-type(1) {
@@ -104,4 +110,13 @@ footer {
 footer>div {
     font-size: 16px;
     padding: 20px 0px;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
