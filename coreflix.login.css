@@ -80,6 +80,7 @@ form>div:nth-of-type(4)>button {
     border-radius: 4px;
     font-weight: 700;
     height: 40px;
+    cursor: pointer;
 }
 
 form>div:nth-of-type(5) {
